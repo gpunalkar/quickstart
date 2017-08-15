@@ -1,0 +1,10 @@
+<p>I am {{name}}</p>
+<button (click)="testFunction()">Navigate to About</button>
+<p><a routerLink="/about">About</a></p>
+
+<div *ngFor="let post of myPost">
+    <p>
+        {{post.id}}<br/> {{post.title}}
+        <br/> {{post.body}}
+    </p>
+</div>
